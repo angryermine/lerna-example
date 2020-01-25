@@ -1,0 +1,14 @@
+{
+  "name": "lerna-example",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Leonid Fedorov <lfedorov@live.com>",
+  "description": "Basic project with lerna and yarn workspaces",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  }
+}
