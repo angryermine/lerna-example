@@ -1,0 +1,10 @@
+{
+  "name": "@monorepo/app",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Leonid Fedorov <lfedorov@live.com>",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  }
+}

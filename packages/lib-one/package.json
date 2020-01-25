@@ -1,0 +1,7 @@
+{
+  "name": "@monorepo/lib-one",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Leonid Fedorov <lfedorov@live.com>",
+  "main": "index.js"
+}
