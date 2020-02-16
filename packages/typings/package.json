@@ -1,0 +1,11 @@
+{
+  "name": "@monorepo/typings",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "Leonid Fedorov <lfedorov@live.com>",
+  "license": "MIT",
+  "scripts": {
+    "pretty": "prettier --config='../../.prettierrc' --write '**/*.{[jt]s?(x),*css}'"
+  }
+}
