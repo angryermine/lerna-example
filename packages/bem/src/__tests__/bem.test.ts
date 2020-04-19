@@ -1,4 +1,4 @@
-import {bem} from '../src';
+import {bem} from '..';
 
 describe('bem', () => {
   const b = bem('foo');

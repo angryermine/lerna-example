@@ -5,7 +5,10 @@
   "author": "Leonid Fedorov <lfedorov@live.com>",
   "main": "index.js",
   "scripts": {
-    "pretty": "prettier --config='../../.prettierrc' --write '**/*.{[jt]s?(x),*css}'",
+    "docs:dev": "docz dev",
+    "docs:build": "docz build",
+    "docs:serve": "docz build && docz serve",
+    "pretty": "prettier --config='../../.prettierrc' --write 'src/**/*.{[jt]s?(x),*css}'",
     "test": "../../node_modules/.bin/jest --config jest.json"
   },
   "dependencies": {
@@ -22,6 +25,7 @@
     "@types/enzyme-adapter-react-16": "^1.0.6",
     "@types/react": "^16.9.19",
     "babel-jest": "^25.1.0",
+    "docz": "^2.3.1",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "identity-obj-proxy": "^3.0.0"

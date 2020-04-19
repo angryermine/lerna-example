@@ -3,3 +3,12 @@ node_modules
 
 # logs
 *.log
+
+# docs
+.docz
+
+#tests
+coverage
+
+#misc
+.DS_Store
