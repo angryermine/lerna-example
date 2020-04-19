@@ -12,7 +12,7 @@ function createModifiers(block: string, mods: Mods) {
 }
 
 export function bem(block: string) {
-  return function(...args: Args) {
+  return function (...args: Args) {
     if (typeof args[0] === 'string') {
       const result = `${block}__${args[0]}`;
       return args[1] ? `${result}${createModifiers(result, args[1])}` : result;
