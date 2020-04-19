@@ -1,0 +1,29 @@
+@import '../variables.css';
+
+.btn-group .btn {
+  margin-bottom: var(--gutter);
+}
+
+.btn-group .btn:not(:last-child) {
+  margin-right: var(--gutter);
+}
+
+.btn-group--gutter-xs {
+  --gutter: var(--gutter-xs);
+}
+
+.btn-group--gutter-sm {
+  --gutter: var(--gutter-sm);
+}
+
+.btn-group--gutter-md {
+  --gutter: var(--gutter-md);
+}
+
+.btn-group--gutter-lg {
+  --gutter: var(--gutter-lg);
+}
+
+.btn-group--gutter-xl {
+  --gutter: var(--gutter-xl);
+}
