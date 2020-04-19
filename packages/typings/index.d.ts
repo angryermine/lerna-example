@@ -1,3 +1,3 @@
-export type Indexed<T = any> = {
+export type Dictionary<T = any> = {
   [key: string]: T;
 };
