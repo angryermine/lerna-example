@@ -1,0 +1,35 @@
+:root {
+  --color-black: #272727;
+  --color-white: #fff;
+  --color-primary: #5361c9;
+  --color-secondary: #8898aa;
+  --color-success: #2dd07e;
+  --color-info: #2cabe3;
+  --color-warning: #ffc36d;
+  --color-danger: #ff5050;
+
+  --unit: 1rem;
+  --unit-xs: calc(0.25 * var(--unit));
+  --unit-sm: calc(0.5 * var(--unit));
+  --unit-md: var(--unit);
+  --unit-lg: calc(1.25 * var(--unit));
+  --unit-xl: calc(1.5 * var(--unit));
+
+  --padding-xs: calc(0.5 * var(--unit-xs)) var(--unit-xs);
+  --padding-sm: calc(0.5 * var(--unit-sm)) var(--unit-sm);
+  --padding-md: calc(0.5 * var(--unit-md)) var(--unit-md);
+  --padding-lg: calc(0.5 * var(--unit-lg)) var(--unit-lg);
+  --padding-xl: calc(0.5 * var(--unit-xl)) var(--unit-xl);
+
+  --font-size-xs: calc(0.8 * var(--unit));
+  --font-size-sm: calc(0.9 * var(--unit));
+  --font-size-md: var(--unit);
+  --font-size-lg: calc(1.1 * var(--unit));
+  --font-size-xl: calc(1.2 * var(--unit));
+
+  --gutter-xs: calc(0.5 * var(--unit-xs));
+  --gutter-sm: calc(0.5 * var(--unit-sm));
+  --gutter-md: calc(0.5 * var(--unit-md));
+  --gutter-lg: calc(0.5 * var(--unit-lg));
+  --gutter-xl: calc(0.5 * var(--unit-xl));
+}
