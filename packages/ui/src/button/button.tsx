@@ -3,7 +3,7 @@ import cn from 'classnames';
 
 import {bem} from '@monorepo/bem';
 
-import './button.scss';
+import './button.css';
 
 type BaseProps = Omit<React.HTMLProps<HTMLButtonElement>, 'type'>;
 type OwnProps = {

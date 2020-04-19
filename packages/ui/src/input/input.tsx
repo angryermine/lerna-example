@@ -3,7 +3,7 @@ import cn from 'classnames';
 
 import {bem} from '@monorepo/bem';
 
-import './input.scss';
+import './input.css';
 
 export type InputProps = React.HTMLProps<HTMLInputElement>;
 
