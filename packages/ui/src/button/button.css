@@ -1,11 +1,17 @@
 @import '../variables.css';
 
 .btn {
+  --color: var(--color-black);
+  --border-color: var(--color-black);
+  --background-color: var(--color-white);
+
   font-size: var(--font-size);
-  color: var(--color, var(--color-black));
+  color: var(--color);
   padding: var(--padding);
-  border: 1px solid var(--border-color, var(--color-black));
-  background-color: var(--background-color, var(--color-white));
+  border: 1px solid var(--border-color);
+  border-radius: calc(0.25 * var(--unit));
+  background-color: var(--background-color);
+  transition: all 0.3s;
 }
 
 .btn:not(:disabled) {
@@ -71,12 +77,6 @@
   --background-color: var(--color-danger);
   --border-color: var(--color-danger);
   --color: var(--color-white);
-}
-
-.btn--theme-light {
-  --background-color: var(--color-white);
-  --border-color: var(--color-black);
-  --color: var(--color-black);
 }
 
 .btn--theme-dark {
