@@ -1,3 +1,86 @@
+@import '../variables.css';
+
 .btn {
-  padding: 0.5rem;
+  font-size: var(--font-size);
+  color: var(--color, var(--color-black));
+  padding: var(--padding);
+  border: 1px solid var(--border-color, var(--color-black));
+  background-color: var(--background-color, var(--color-white));
+}
+
+.btn:not(:disabled) {
+  cursor: pointer;
+}
+
+.btn--size-xs {
+  --font-size: var(--font-size-xs);
+  --padding: var(--padding-xs);
+}
+
+.btn--size-sm {
+  --font-size: var(--font-size-sm);
+  --padding: var(--padding-sm);
+}
+
+.btn--size-md {
+  --font-size: var(--font-size-md);
+  --padding: var(--padding-md);
+}
+
+.btn--size-lg {
+  --font-size: var(--font-size-lg);
+  --padding: var(--padding-lg);
+}
+
+.btn--size-xl {
+  --font-size: var(--font-size-xl);
+  --padding: var(--padding-xl);
+}
+
+.btn--theme-primary {
+  --background-color: var(--color-primary);
+  --border-color: var(--color-primary);
+  --color: var(--color-white);
+}
+
+.btn--theme-secondary {
+  --background-color: var(--color-secondary);
+  --border-color: var(--color-secondary);
+  --color: var(--color-white);
+}
+
+.btn--theme-success {
+  --background-color: var(--color-success);
+  --border-color: var(--color-success);
+  --color: var(--color-white);
+}
+
+.btn--theme-info {
+  --background-color: var(--color-info);
+  --border-color: var(--color-info);
+  --color: var(--color-white);
+}
+
+.btn--theme-warning {
+  --background-color: var(--color-warning);
+  --border-color: var(--color-warning);
+  --color: var(--color-black);
+}
+
+.btn--theme-danger {
+  --background-color: var(--color-danger);
+  --border-color: var(--color-danger);
+  --color: var(--color-white);
+}
+
+.btn--theme-light {
+  --background-color: var(--color-white);
+  --border-color: var(--color-black);
+  --color: var(--color-black);
+}
+
+.btn--theme-dark {
+  --background-color: var(--color-black);
+  --border-color: var(--color-black);
+  --color: var(--color-white);
 }
