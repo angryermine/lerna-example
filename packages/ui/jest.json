@@ -1,4 +1,6 @@
 {
+  "rootDir": "src",
+  "coverageDirectory": "../coverage",
   "transform": {
     "^.+\\.tsx?$": "ts-jest"
   },
@@ -6,6 +8,6 @@
     "\\.*css$": "identity-obj-proxy"
   },
   "setupFilesAfterEnv": [
-    "<rootDir>/test/setup.ts"
+    "../test/setup.ts"
   ]
 }

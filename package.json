@@ -6,9 +6,12 @@
   "description": "Basic project with lerna and yarn workspaces",
   "private": true,
   "scripts": {
+    "docs:dev": "lerna run docs:dev",
+    "docs:build": "lerna run docs:build",
     "bootstrap": "lerna bootstrap",
     "pretty": "lerna run pretty",
-    "test": "lerna run test"
+    "test": "lerna run test --stream",
+    "test:coverage": "lerna run test --stream -- --coverage"
   },
   "devDependencies": {
     "@types/jest": "^25.2.1",
