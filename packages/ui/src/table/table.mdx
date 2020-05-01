@@ -1,0 +1,54 @@
+---
+name: Tables
+menu: Components
+route: components/table
+---
+
+import {Playground, Props} from 'docz';
+import * as random from '@monorepo/random';
+import {Table} from './table';
+
+# Tables
+
+## Basic usage
+<Playground>
+    <Table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            {random.customers().map(({id, name}) => (
+                <tr key={id}>
+                    <td>{id}</td>
+                    <td>{name}</td>
+                </tr>
+            ))}
+        </tbody>
+    </Table>
+</Playground>
+
+## Sticky header
+<Playground>
+    <Table sticky>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            {random.customers().map(({id, name}) => (
+                <tr key={id}>
+                    <td>{id}</td>
+                    <td>{name}</td>
+                </tr>
+            ))}
+        </tbody>
+    </Table>
+</Playground>
+
+## Props
+<Props of={Table} />
