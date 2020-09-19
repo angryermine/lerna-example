@@ -11,7 +11,7 @@
     "bootstrap": "lerna bootstrap",
     "pretty": "lerna run pretty",
     "test": "lerna run test --parallel",
-    "test:coverage": "lerna run test -- --coverage"
+    "test:coverage": "lerna run test --parallel -- --coverage"
   },
   "devDependencies": {
     "@babel/core": "^7.11.6",

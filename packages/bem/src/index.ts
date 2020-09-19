@@ -1,13 +1,13 @@
-type Mods = Record<string, boolean | string | undefined>;
+type Mods = Record<string, boolean | number | string | undefined>;
 type Args = [] | [string | Mods] | [string | Mods, Mods];
 
 function createModifiers(block: string, mods: Mods) {
   return Object.entries(mods).reduce((acc, [key, val]) => {
-    if (typeof val === 'string') {
+    if (typeof val === 'string' || typeof val === 'number') {
       return `${acc} ${block}--${key}-${val}`;
     }
 
-    return val ? `${acc} ${block}--${key}` : acc;
+    return typeof val !== 'undefined' ? `${acc} ${block}--${key}` : acc;
   }, '');
 }
 
