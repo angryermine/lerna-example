@@ -44,4 +44,17 @@ describe('bem', () => {
 
     expect(expected).toEqual(actual);
   });
+
+  it('should creeate element class with number mod', () => {
+    const actual = b('bar', {baz: 0});
+    const expected = 'foo__bar foo__bar--baz-0';
+
+    expect(expected).toEqual(actual);
+  });
+
+  it('should ignore mod if it is undefined', () => {
+    const actual = b('bar', {baz: undefined});
+    const expected = 'foo__bar';
+    expect(expected).toEqual(actual);
+  });
 });
