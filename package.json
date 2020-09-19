@@ -10,7 +10,7 @@
     "docs:build": "lerna run docs:build",
     "bootstrap": "lerna bootstrap",
     "pretty": "lerna run pretty",
-    "test": "lerna run test",
+    "test": "lerna run test --parallel",
     "test:coverage": "lerna run test -- --coverage"
   },
   "devDependencies": {
