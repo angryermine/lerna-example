@@ -8,7 +8,7 @@
     "docs:dev": "docz dev",
     "docs:build": "docz build",
     "docs:serve": "docz build && docz serve",
-    "pretty": "prettier --config='../../.prettierrc' --write 'src/**/*.{[jt]s?(x),*css}'",
+    "pretty": "prettier --write 'src/**/*.{[jt]s?(x),*css}'",
     "test": "../../node_modules/.bin/jest --config jest.json"
   },
   "dependencies": {
