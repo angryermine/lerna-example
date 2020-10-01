@@ -7,7 +7,7 @@
   "license": "MIT",
   "main": "src/index.ts",
   "scripts": {
-    "pretty": "prettier --config='../../.prettierrc' --write 'src/**/*.{[jt]s?(x),*css}'",
+    "pretty": "prettier --write 'src/**/*.{[jt]s?(x),*css}'",
     "test": "../../node_modules/.bin/jest"
   }
 }
