@@ -16,7 +16,7 @@ type OwnProps = {
 
 export type ButtonProps = BaseProps & OwnProps;
 
-const b = bem('btn');
+const b = bem('Button');
 
 const DEFAULT_PROPS: ButtonProps = {
   type: 'button',

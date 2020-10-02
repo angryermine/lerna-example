@@ -1,6 +1,6 @@
 @import '../styles/variables.css';
 
-.btn {
+.Button {
   --color: var(--color-black);
   --border-color: var(--color-black);
   --background-color: var(--color-white);
@@ -14,72 +14,72 @@
   transition: all 0.3s;
 }
 
-.btn:not(:disabled) {
+.Button:not(:disabled) {
   cursor: pointer;
 }
 
-.btn--size-xs {
+.Button--size-xs {
   --font-size: var(--font-size-xs);
   --padding: var(--padding-xs);
 }
 
-.btn--size-sm {
+.Button--size-sm {
   --font-size: var(--font-size-sm);
   --padding: var(--padding-sm);
 }
 
-.btn--size-md {
+.Button--size-md {
   --font-size: var(--font-size-md);
   --padding: var(--padding-md);
 }
 
-.btn--size-lg {
+.Button--size-lg {
   --font-size: var(--font-size-lg);
   --padding: var(--padding-lg);
 }
 
-.btn--size-xl {
+.Button--size-xl {
   --font-size: var(--font-size-xl);
   --padding: var(--padding-xl);
 }
 
-.btn--theme-primary {
+.Button--theme-primary {
   --background-color: var(--color-primary);
   --border-color: var(--color-primary);
   --color: var(--color-white);
 }
 
-.btn--theme-secondary {
+.Button--theme-secondary {
   --background-color: var(--color-secondary);
   --border-color: var(--color-secondary);
   --color: var(--color-white);
 }
 
-.btn--theme-success {
+.Button--theme-success {
   --background-color: var(--color-success);
   --border-color: var(--color-success);
   --color: var(--color-white);
 }
 
-.btn--theme-info {
+.Button--theme-info {
   --background-color: var(--color-info);
   --border-color: var(--color-info);
   --color: var(--color-white);
 }
 
-.btn--theme-warning {
+.Button--theme-warning {
   --background-color: var(--color-warning);
   --border-color: var(--color-warning);
   --color: var(--color-black);
 }
 
-.btn--theme-danger {
+.Button--theme-danger {
   --background-color: var(--color-danger);
   --border-color: var(--color-danger);
   --color: var(--color-white);
 }
 
-.btn--theme-dark {
+.Button--theme-dark {
   --background-color: var(--color-black);
   --border-color: var(--color-black);
   --color: var(--color-white);

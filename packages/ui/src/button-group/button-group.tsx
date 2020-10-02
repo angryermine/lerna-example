@@ -14,7 +14,7 @@ type OwnProps = {
 
 export type ButtonGroupProps = BaseProps & OwnProps;
 
-const b = bem('btn-group');
+const b = bem('ButtonGroup');
 
 const DEFAULT_PROPS: ButtonGroupProps = {
   gutter: 'md',

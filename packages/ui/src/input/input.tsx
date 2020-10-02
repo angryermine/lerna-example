@@ -8,7 +8,7 @@ import './input.css';
 export type InputProps = React.HTMLProps<HTMLInputElement>;
 
 export function Input({className, ...props}: InputProps) {
-  const b = bem('input');
+  const b = bem('Input');
   const inputClass = cn(b(), className);
 
   return <input {...props} className={inputClass} />;
